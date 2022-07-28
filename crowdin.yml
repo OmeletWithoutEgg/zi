@@ -1,0 +1,6 @@
+files:
+  - source: docs/*.*
+    ignore:
+      - docs/images/*
+      - /docs/i18n/*.*
+    translation: docs/i18n/%two_letters_code%/**/%original_file_name%

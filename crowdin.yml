@@ -4,3 +4,7 @@ files:
       - docs/images/*
       - /docs/i18n/*.*
     translation: docs/i18n/%two_letters_code%/**/%original_file_name%
+  - source: lib/*.*
+    ignore:
+      - lib/zcompile/*
+    translation: docs/i18n/lib/%two_letters_code%/**/%original_file_name%
